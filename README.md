@@ -24,6 +24,10 @@ Run the app (should run at https://localhost:8000)
 poetry run python manage.py migrate
 poetry run python manage.py runserver
 ```
+Create a superuser
+```
+poetry run python manage.py createsuperuser
+```
 
 ## Configurations
 In the .env file, change CORS_ALLOWED_ORIGINS to the front end dev server URL.
